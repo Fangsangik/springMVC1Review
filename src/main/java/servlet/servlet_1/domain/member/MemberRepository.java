@@ -19,9 +19,6 @@ public class MemberRepository {
         return instance;
     }
 
-    private MemberRepository(){
-
-    }
 
     public Member save(Member member){
         member.setId(++sequence);
